@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatacao de texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>Termo em negrito</b> usando a tag &lt;b&gt; (nao semantica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;(semantica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (nao semantica)</p>
+    <p>Nesta frase, temos um <em>termo em itálico</em> usando a tag &lt;em&gt; (semantica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos crua tambem <mark style="background-color: lime;">um texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> &lt;big&gt;e um texto <small>pequeno &lt;small&gt;</small> nesse paragráfo</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um texto <del>como excluído</del> para indicar que ele deve ser lido, mas não considerado &lt;del&gt;</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um texto <ins>como inserido</ins> para da enfase e que el foi adicioando depois &lt;ins&gt;</p>
+    <p>Existe também o  <u>sublinhado</u> com a tag &lt;u&gt;(não semantica)</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+30 com a tag &lt;sup&gt;</p>
+    <h2>Texto Subscrito</h2>
+    <p></p>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O com a tag &lt;sub&gt;</p>
+
+    <h1>Outras formatações</h1>
+    <h2>Codigo fonte</h2>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em liguangem JavaScrpit</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O número é {num} PAR')
+    else:
+        print(f'O número é {num} IMPAR')
+    print('Fim do progama')
+        </code>
+    </pre>
+    <h2>Citacoes simples</h2>
+    <p>Como diria o pai de um amigo: o computador é um burro muito rapido</p>
+    <h2>Citacoes completas</h2>
+    <p>Segundo o goolge citacao é:</p>
+    <blockquote cite="https://www.google.com/search?q=citacao&oq=citacao&aqs=chrome..69i57j0i512l6j69i60.985j0j7&sourceid=chrome&ie=UTF-8">
+        Ato que convoca o réu para fazer parte do processo. Conforme definição do artigo 238 do Código de Processo Civil - CPC, é chamado "citação" o ato processual que convoca o réu, executado ou interessado, para fazer parte do processo. Trata-se de formalidade essencial para a validade do processo.
+    </blockquote>
+    <h2>Abreviaçoes</h2>
+    <p>Estou aprendo <abbr title="HyperText Markup Laguage">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> !</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+HTML - HYPERTEXT MARKUP LANGUANGE 
+<h1> Paragrafo </h1>
+<hr> Linha horizontal
+<br> Quebra de Linha
+<address></address> Endereco
+<strong></strong> Colocar o texto em negrito
+<em></em> Colocar em Italico
+<mark></mark> Marca o texto
+Editor de imagens Gimp
+Usar imagens pega nesse site sem direitos autorais https://www.pexels.com/pt-br/
+Para adicionar simbolos comeca com &
+Para adicionar emoji pegue no site https://emojipedia.org/ e comece com &#x
