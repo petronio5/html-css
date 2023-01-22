@@ -10,3 +10,33 @@ Editor de imagens Gimp
 Usar imagens pega nesse site sem direitos autorais https://www.pexels.com/pt-br/
 Para adicionar simbolos comeca com &
 Para adicionar emoji pegue no site https://emojipedia.org/ e comece com &#x
+
+
+Tela rotativa 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .load{
+            border: 20px solid black;
+            border-radius: 50%;
+            border-top: 20px solid white;
+            width: 120px;
+            height: 120px;
+            animation: rotate 2s linear infinite;
+        }
+        @keyframes rotate {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <h1>Carregamento animado</h1>
+    <div class="load"><p></p></div>
+</body>
+</html>
